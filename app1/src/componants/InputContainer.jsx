@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
 
-const InputContainer = () => {
-  let input=""
-  // const [data,setData]=useState ("")
-  function inputData(ele){
-    input = ele.target.value
-    console.log (input)
+const InputContainer = ({setInput}) => {
+  let input ="";
+  
+  function addHandlar(){
+    setInput(input)
   }
  
   return (
     <div style={{display:"flex",justifyContent:"center",paddingTop:"50px"}}>
-        <input style={{padding:"20px 30px"}}onChange={inputData}/>
-        <button style={{padding:"20px 30px"}}>Add</button>
+        <input onChange={function(event){
+          input=event.target.value;
+          console.log(input) }}style={{padding:"20px 30px"}}/>
+        <button style={{padding:"20px 30px"}}onClick={addHandlar}>Add</button>
     </div>
   )
 }
