@@ -8,6 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { TemplatedrivenformComponent } from './templatedrivenform/templatedrivenform.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { DirectivesComponent } from './directives/directives.component';
     LoginComponent,
     SignUpComponent,
     DatabindingComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    TemplatedrivenformComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

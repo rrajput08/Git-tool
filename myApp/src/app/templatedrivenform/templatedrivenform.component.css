@@ -1,0 +1,13 @@
+.form-container{
+    height: 300px;
+    margin: auto;
+    background-color: blanchedalmond;
+    border: 2px saddlebrown;
+    width: 300px;
+    text-align: center;
+
+
+}
+.error{
+    color: red;
+}

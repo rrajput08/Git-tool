@@ -1,0 +1,18 @@
+<!-- <p>templatedrivenform works!</p> -->
+<div>
+    <form class="form-container" #loginForm = "ngForm" (ngSubmit)="submit(loginForm)">
+        <h2>Login</h2>
+        <div>
+            <label> User Name </label><br>
+            <input type="text" ngModel Name = "userName" id = "" required> <br>
+        </div>
+        <div>
+            <label> Password </label> <br>
+            <input type="text" ngModel Name = "Password">
+        </div>
+        <div>
+            Not an Account? Create an Account.
+        </div>
+
+    </form>
+</div>
