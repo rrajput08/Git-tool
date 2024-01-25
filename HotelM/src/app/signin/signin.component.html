@@ -1,3 +1,6 @@
+<body>
+    <div>
+
 <div>
 
 <form [formGroup]="signInForm">
@@ -19,12 +22,15 @@
         <mat-label>Password</mat-label>
         <input type="text" matInput formControlName="password">
     </mat-form-field>
+    <mat-error *ngIf="notValidUser">Invalid users name or password</mat-error>
     
     <br>
-    <button mat-raised-button color="accent">Submit</button>
+    <button mat-raised-button color="accent" (click)="submit()">Submit</button>
     <br>
     <a routerLink="/signUp">Don't have account click here</a>
 
 
 </form>
 </div>
+</div>
+</body>

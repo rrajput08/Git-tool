@@ -1,7 +1,100 @@
-{  
-    "admin" : [], 
-    "owner " : [], 
-    "user" : [], 
-    "hotelDetails":[], 
-    "hotelBooking":[] 
-} 
+{
+  "admin": [
+    {
+      "id": "5db3",
+      "fullName": "",
+      "mob": null,
+      "gender": null,
+      "pan": null,
+      "password": null,
+      "confirmPass": ""
+    },
+    {
+      "id": "a65f",
+      "fullName": "khush",
+      "mob": "22333",
+      "gender": null,
+      "pan": "shshg3h",
+      "password": "rrr",
+      "confirmPass": "rrr"
+    }
+  ],
+  "owner": [
+    {
+      "id": "7672",
+      "fullName": "roshani",
+      "mob": "33344",
+      "gender": null,
+      "pan": "asg5hh",
+      "password": "www",
+      "confirmPass": "www"
+    },
+    {
+      "id": "1090",
+      "fullName": "",
+      "mob": null,
+      "gender": null,
+      "pan": null,
+      "password": null,
+      "confirmPass": ""
+    },
+    {
+      "id": "0b78",
+      "fullName": "",
+      "mob": null,
+      "gender": null,
+      "pan": null,
+      "password": null,
+      "confirmPass": ""
+    }
+  ],
+  "user": [
+    {
+      "id": "da88",
+      "fullName": "chiku",
+      "mob": "34445",
+      "gender": null,
+      "pan": "ghh4ht",
+      "password": "eee",
+      "confirmPass": "eee"
+    },
+    {
+      "id": "b02b",
+      "fullName": "",
+      "mob": null,
+      "gender": null,
+      "pan": null,
+      "password": null,
+      "confirmPass": ""
+    },
+    {
+      "id": "baa0",
+      "fullName": "",
+      "mob": null,
+      "gender": null,
+      "pan": null,
+      "password": null,
+      "confirmPass": ""
+    },
+    {
+      "id": "47a6",
+      "fullName": "",
+      "mob": null,
+      "gender": null,
+      "pan": null,
+      "password": null,
+      "confirmPass": ""
+    },
+    {
+      "id": "c3b9",
+      "fullName": "",
+      "mob": null,
+      "gender": null,
+      "pan": null,
+      "password": null,
+      "confirmPass": ""
+    }
+  ],
+  "hotelDetails": [],
+  "hotelBooking": []
+}
